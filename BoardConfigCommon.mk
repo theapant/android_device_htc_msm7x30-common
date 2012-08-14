@@ -27,6 +27,8 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 TARGET_SPECIFIC_HEADER_PATH := device/htc/msm7x30-common/include
 
+DEVICE_PACKAGE_OVERLAYS += device/htc/msm7x30-common/overlay
+
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER      := WEXT
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
