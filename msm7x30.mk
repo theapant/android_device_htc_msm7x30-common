@@ -56,7 +56,7 @@ PRODUCT_PACKAGES += \
     audio_policy.msm7x30 \
     audio.primary.msm7x30 \
     libaudioutils \
-    audio.policy.conf
+    audio_policy.conf
 
 # Video
 PRODUCT_PACKAGES += \
