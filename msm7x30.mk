@@ -53,10 +53,11 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
-    audio_policy.msm7x30 \
     audio.primary.msm7x30 \
     libaudioutils \
     audio_policy.conf
+
+#   audio_policy.msm7x30 \
 
 # Video
 PRODUCT_PACKAGES += \
