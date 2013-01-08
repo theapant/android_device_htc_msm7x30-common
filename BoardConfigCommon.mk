@@ -17,6 +17,9 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := msm7x30
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 
+# Vendor
+BOARD_VENDOR := htc
+
 TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
@@ -66,6 +69,8 @@ BOARD_USES_QCOM_AUDIO_RESETALL := true
 
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
+BOARD_BLUEDROID_VENDOR_CONF := device/htc/msm7x30-common/bluetooth/vnd_msm7x30.txt
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR ?= device/htc/msm7x30-common/bluetooth/include
 
 BOARD_VENDOR_QCOM_AMSS_VERSION := 1200
 
