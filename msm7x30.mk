@@ -57,18 +57,11 @@ PRODUCT_PACKAGES += \
     audio.primary.msm7x30 \
     libaudioutils
 
-#   audio_policy.msm7x30 \
-
 # Video
 PRODUCT_PACKAGES += \
     copybit.msm7x30 \
     gralloc.msm7x30 \
-    hwcomposer.msm7x30 \
-    libgenlock \
-    libmemalloc \
-    liboverlay \
-    libQcomUI \
-    libtilerenderer
+    hwcomposer.msm7x30
 
 # QCOM OMX
 PRODUCT_PACKAGES += \
@@ -108,7 +101,6 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 
 # use high-density artwork where available
 PRODUCT_LOCALES += en
-
 PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
