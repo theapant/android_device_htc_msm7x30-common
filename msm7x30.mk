@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc
 
+# Power HAL
+PRODUCT_PACKAGES += \
+    power.msm7x30
+
 # Misc
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
