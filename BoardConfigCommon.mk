@@ -102,3 +102,7 @@ BOARD_USES_LEGACY_RIL := true
 
 # Webkit
 TARGET_FORCE_CPU_UPLOAD := true
+
+# Kernel
+BUILD_KERNEL := true
+KERNEL_TOOLCHAIN_PREFIX:=$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.7/bin/arm-eabi-
